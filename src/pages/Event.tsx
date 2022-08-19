@@ -1,11 +1,9 @@
 import { useParams } from "react-router-dom"
+import { IconBemVindo } from "../assets/IconBemVindo"
 import { Footer } from "../components/Footer"
 import { Header } from "../components/Header"
-import { IconBemVindo } from "../components/IconBemVindo"
 import { Sidebar } from "../components/Sidebar"
 import { Video } from "../components/Video"
-
-
 
 export function Event(){
   const { slug } = useParams<{slug: string}>()

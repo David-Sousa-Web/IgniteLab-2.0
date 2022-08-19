@@ -1,4 +1,5 @@
-import { LogoRocket } from "./LogoRocket";
+import { LogoRocket } from "../assets/LogoRocket";
+
 
 export function Footer(){
   return(
